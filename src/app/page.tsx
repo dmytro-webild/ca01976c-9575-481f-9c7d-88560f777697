@@ -49,7 +49,7 @@ export default function HvacPage() {
               { text: "Schedule Your Service Today", href: "#contact" },
             ]}
             buttonAnimation="slide-up"
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-1.jpg"
+            imageSrc="https://img.b2bpic.net/premium-photo/hvac-technician-performing-air-condition-heat-pump-units-maintenance_1170794-229517.jpg?id=175819878"
             imageAlt="All County HVAC technician"
             showDimOverlay={true}
           />
