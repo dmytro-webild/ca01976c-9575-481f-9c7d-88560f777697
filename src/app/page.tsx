@@ -6,13 +6,11 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroOverlay from "@/components/sections/hero/HeroOverlay";
 import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
 import FeatureCardOne from "@/components/sections/feature/FeatureCardOne";
-import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/FeatureBorderGlow";
-import FeatureCardEight from "@/components/sections/feature/FeatureCardEight";
 import TestimonialCardThirteen from "@/components/sections/testimonial/TestimonialCardThirteen";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterMedia from "@/components/sections/footer/FooterMedia";
-import { ShieldCheck, Wrench, DollarSign, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 
 export default function HvacPage() {
   return (
@@ -69,6 +67,7 @@ export default function HvacPage() {
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-2.jpg"
             imageAlt="Mike Makhija onsite"
             metricsAnimation="slide-up"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -84,6 +83,7 @@ export default function HvacPage() {
             textboxLayout="default"
             animationType="slide-up"
             gridVariant="three-columns-all-equal-width"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -99,6 +99,7 @@ export default function HvacPage() {
             showRating={true}
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -110,6 +111,7 @@ export default function HvacPage() {
               { id: "2", title: "Do you serve all of North DeKalb?", content: "Yes, we specialize in servicing residential and commercial properties throughout the entire North DeKalb area." },
             ]}
             faqsAnimation="slide-up"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -122,6 +124,8 @@ export default function HvacPage() {
               { text: "Schedule Your Service Today", href: "tel:5551234567" },
             ]}
             tagIcon={Phone}
+            background={{ variant: "plain" }}
+            useInvertedBackground={false}
           />
         </div>
 
@@ -132,6 +136,7 @@ export default function HvacPage() {
               { title: "Services", items: [{ label: "AC & Heating", href: "#services" }] },
               { title: "Contact", items: [{ label: "(555) 123-4567", href: "tel:5551234567" }] },
             ]}
+            videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/video.mp4"
           />
         </div>
       </ReactLenis>
