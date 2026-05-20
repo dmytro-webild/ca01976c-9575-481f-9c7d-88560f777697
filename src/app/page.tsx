@@ -36,7 +36,7 @@ export default function HvacPage() {
               { name: "Testimonials", id: "testimonials" },
               { name: "Contact", id: "contact" },
             ]}
-            button={{ text: "Schedule Service", href: "#contact" }}
+            button={{ text: "Call +1 (404) 636-3998", href: "tel:+14046363998" }}
             animateOnLoad={false}
           />
         </div>
@@ -121,7 +121,7 @@ export default function HvacPage() {
             title="Get Honest HVAC Service Today"
             description="Don't wait for your system to fail. Experience the All County difference in North DeKalb."
             buttons={[
-              { text: "Schedule Your Service Today", href: "tel:5551234567" },
+              { text: "Schedule Your Service Today", href: "tel:+14046363998" },
             ]}
             tagIcon={Phone}
             background={{ variant: "plain" }}
@@ -134,7 +134,7 @@ export default function HvacPage() {
             logoText="All County HVAC"
             columns={[
               { title: "Services", items: [{ label: "AC & Heating", href: "#services" }] },
-              { title: "Contact", items: [{ label: "(555) 123-4567", href: "tel:5551234567" }] },
+              { title: "Contact", items: [{ label: "(404) 636-3998", href: "tel:+14046363998" }] },
             ]}
             videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/video.mp4"
           />
